@@ -15,7 +15,7 @@ def process_pdf(pdf_path):
     t = ''
     for i, image in enumerate(images):
         # Save images to a temporary folder.
-        image_path = f"Data/Task1/temp/{i}.jpg"
+        image_path = f"Data/temp/{i}.jpg"
         image.save(image_path, 'JPEG')
 
         # Load image using OpenCV
