@@ -3,7 +3,7 @@ import pytesseract
 import os
 import pdf2image
 
-task_folder = 'Data/Task1'
+task_folder = 'Data'
 
 with open('output.txt', 'w') as file:
     file.truncate(0)
